@@ -1,0 +1,5 @@
+print("### Boy Kilo Endeksi Hesaplama ###")
+boy = float(input("Lütfen boyunuzu metre (m) cinsinden giriniz: "))
+kilo = float(input("Lütfen kilonuzu kilogram (kg) cinsinden giriniz: "))
+endeks = kilo/(boy**2)
+print("\nKullanıcın boy kilo endeksi: ",endeks)
